@@ -1,0 +1,74 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+*.pid.tmp
+
+# Coverage and test output
+coverage/
+.nyc_output/
+
+# Build output
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*.local
+
+# Debug & cache
+.cache/
+.cache-loader/
+.parcel-cache/
+.vscode/.cache
+.eslintcache
+*.local
+
+# Runtime and tooling
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.sqlite
+*.sqlite3
+/data/*.db
+
+# Uploaded files
+uploads/
+public/uploads/
+
+# Misc
+node_repl_history
+*.log.*
+*.bak
+*.backup
